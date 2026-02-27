@@ -1,8 +1,8 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  Command_and_Signal_Blufor2 {
   coords 3023.178 10 3011.845
-  m_sTitle "V. Command and SIgnal"
-  m_sTextData "Determined by cell leader"
+  m_sTitle "V. Command and Signal"
+  m_sTextData "Determined by cell leader."
   m_aVisibleForFactions {
    "GC_MUJ"
   }
@@ -51,7 +51,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Mission_Summary {
   coords 2908.286 10 3007.086
   m_sTitle "VI. Mission Summary"
-  m_sTextData "A Joint Task Force of Rangers and Delta assault an insurgent held cave system within 60 minutes."\
+  m_sTextData "A Joint Task Force of Rangers and Delta assault an insurgent-held cave system within 60 minutes."\
   ""\
   ""
   m_bEmptyFactionVisibility 1

@@ -1,4 +1,9 @@
 SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers/P/Group_Ranger_2009_HQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{6508C3582F634926}" {
+   m_iPlatoonCallsign 0
+  }
+ }
  coords 2946.51 10.189 2966.792
  angles 0 35.976 0
  m_sCustomNameSet "Charger 1'6"
@@ -10,8 +15,9 @@ $grp SCR_AIGroup : "{36964CCA089D327F}Prefabs/Groups/BLUFOR/US/Army/2009/Delta F
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68B37CEF862EBFE6}" {
+    m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 5
+    m_iSquadCallsign 1
    }
   }
   coords 2916.28 10.084 2991.609
@@ -24,8 +30,9 @@ $grp SCR_AIGroup : "{36964CCA089D327F}Prefabs/Groups/BLUFOR/US/Army/2009/Delta F
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68B37CEF862EBFE6}" {
+    m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 6
+    m_iSquadCallsign 2
    }
   }
   coords 2914.526 10.084 2988.557
@@ -37,6 +44,7 @@ $grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers
  {
   components {
    PS_GroupCallsignAssigner "{6508C35869053D73}" {
+    m_iPlatoonCallsign 0
     m_iSquadCallsign 3
    }
   }
@@ -52,6 +60,11 @@ $grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers
   m_sCustomNameSet "Charger 1'3"
  }
  {
+  components {
+   PS_GroupCallsignAssigner "{6508C35869053D73}" {
+    m_iPlatoonCallsign 0
+   }
+  }
   coords 2944.104 10.189 2965.836
   angles 0 34.14 0
   m_aUnitPrefabSlots {
@@ -66,6 +79,7 @@ $grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers
  {
   components {
    PS_GroupCallsignAssigner "{6508C35869053D73}" {
+    m_iPlatoonCallsign 0
     m_iSquadCallsign 2
    }
   }
@@ -85,6 +99,8 @@ $grp SCR_AIGroup : "{C1E798172DA45F29}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
  S51 {
   components {
    PS_GroupCallsignAssigner "{6554E01465EA8E42}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 3
     m_iSquadCallsign 1
    }
   }
@@ -97,6 +113,12 @@ $grp SCR_AIGroup : "{C1E798172DA45F29}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
   m_sCustomNameSet "Star 5'1"
  }
  S52 {
+  components {
+   PS_GroupCallsignAssigner "{6554E01465EA8E42}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 3
+   }
+  }
   coords 2939.851 10 3034.686
   angles 0 27.838 0
   m_faction "RHS_USAF"
@@ -108,8 +130,9 @@ $grp SCR_AIGroup : "{C1E798172DA45F29}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
  L46 {
   components {
    PS_GroupCallsignAssigner "{6554E01465EA8E42}" {
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 6
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
    }
   }
   coords 2962.814 10 3001.735
@@ -123,8 +146,9 @@ $grp SCR_AIGroup : "{C1E798172DA45F29}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
  L47 {
   components {
    PS_GroupCallsignAssigner "{6554E01465EA8E42}" {
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 6
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 7
    }
   }
   coords 2995.579 10 2994.975
